@@ -4,7 +4,7 @@ public abstract class Employee implements Comparable<Employee> {
 
     protected String name;
     protected String surname;
-    protected int salary; // Ставка заработной платы
+    protected int salary;
     protected int age;
     protected String education;
 
