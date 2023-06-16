@@ -29,12 +29,8 @@ public class Program {
         for (int i = 0; i < employees.length; i++){
             employees[i] = generateEmployee();
         }
-        // Arrays.sort(employees);
+
         Arrays.sort(employees, new SalaryComparator());
-
-        // Arrays.sort(employees, new AgeComporator());
-
-        // Arrays.sort(employees, new SurnameAgeComporator());
 
         for(Employee employee : employees){
             System.out.println(employee);
